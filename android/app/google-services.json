@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "485007903244",
+    "project_id": "blooddonor-55db6",
+    "storage_bucket": "blooddonor-55db6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:485007903244:android:f04d4c0760e72cfa4bfc29",
+        "android_client_info": {
+          "package_name": "com.app.blooddonor"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "485007903244-clm785ktmdcn20gighi0s6kp73ihq2b0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBiDzF9-SbrcROvWRib6yHTJ-wvyuMdTXM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "485007903244-clm785ktmdcn20gighi0s6kp73ihq2b0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

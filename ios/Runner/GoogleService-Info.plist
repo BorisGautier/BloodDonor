@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>485007903244-7msde5oj0nrb5r12gs77lk96s5tcsmfl.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.485007903244-7msde5oj0nrb5r12gs77lk96s5tcsmfl</string>
+	<key>API_KEY</key>
+	<string>AIzaSyBu1Q5ppqgsRRwKshiGirHKkiLL3tRlFjA</string>
+	<key>GCM_SENDER_ID</key>
+	<string>485007903244</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.app.bloodDonnor</string>
+	<key>PROJECT_ID</key>
+	<string>blooddonor-55db6</string>
+	<key>STORAGE_BUCKET</key>
+	<string>blooddonor-55db6.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:485007903244:ios:abcd59429ae2a54b4bfc29</string>
+</dict>
+</plist>
