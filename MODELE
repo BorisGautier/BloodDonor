@@ -1,0 +1,72 @@
+# Modèle de Données
+
+## Structure des Données Firestore
+
+Ce document décrit la structure des données Firestore utilisée dans l'application de don de sang. Le modèle de données comprend les collections suivantes :
+
+- Users (utilisateurs)
+- BloodDonations (donations de sang)
+- BloodRequests (demandes de don de sang)
+- BloodCenters (centres agréés)
+- ChatRooms (salles de chat)
+- Messages (messages dans les salles de chat)
+
+## Users (utilisateurs)
+
+La collection "Users" contient des documents représentant les utilisateurs enregistrés.
+
+### Champs
+- **name** (string) : Nom de l'utilisateur.
+- **email** (string) : Adresse e-mail de l'utilisateur.
+- **bloodGroup** (string) : Groupe sanguin de l'utilisateur.
+- **location** (geopoint) : Localisation de l'utilisateur.
+- **fcmToken** (string) : Jeton Firebase Cloud Messaging de l'utilisateur.
+
+## BloodDonations (donations de sang)
+
+La collection "BloodDonations" contient des documents représentant les informations sur les donations de sang effectuées.
+
+### Champs
+- **donorId** (reference) : Référence à l'utilisateur donneur (document dans la collection "Users").
+- **centerId** (reference) : Référence au centre agréé où la donation a été effectuée (document dans la collection "BloodCenters").
+- **donationDate** (timestamp) : Date de la donation.
+- **bloodGroup** (string) : Groupe sanguin de la donation.
+- **quantity** (integer) : Quantité de sang donnée.
+- **location** (geopoint) : Localisation de la donation.
+
+## BloodRequests (demandes de don de sang)
+
+La collection "BloodRequests" contient des documents représentant les demandes de don de sang.
+
+### Champs
+- **requesterId** (reference) : Référence à l'utilisateur demandeur (document dans la collection "Users").
+- **centerId** (reference) : Référence au centre agréé où la demande est faite (document dans la collection "BloodCenters").
+- **requestDate** (timestamp) : Date de la demande.
+- **bloodGroup** (string) : Groupe sanguin recherché.
+- **location** (geopoint) : Localisation de la demande.
+- **status** (string) : Statut de la demande.
+
+## BloodCenters (centres agréés)
+
+La collection "BloodCenters" contient des documents représentant les centres agréés pour les donations de sang.
+
+### Champs
+- **name** (string) : Nom du centre.
+- **location** (geopoint) : Localisation du centre.
+
+## ChatRooms (salles de chat)
+
+La collection "ChatRooms" contient des documents représentant les salles de chat entre utilisateurs.
+
+### Champs
+- **participants** (array of references) : Liste des participants à la salle de chat (références à des documents dans la collection "Users").
+
+## Messages (messages dans les salles de chat)
+
+La collection "Messages" contient des documents représentant les messages échangés dans les salles de chat.
+
+### Champs
+- **roomId** (reference) : Référence à la salle de chat associée (document dans la collection "ChatRooms").
+- **senderId** (reference) : Référence à l'utilisateur ayant envoyé le message (document dans la collection "Users").
+- **content** (string) : Contenu du message.
+- **timestamp** (timestamp) : Horodatage du message.

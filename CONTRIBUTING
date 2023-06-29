@@ -1,0 +1,33 @@
+# Guide des contributions
+
+Merci de votre intérêt pour contribuer à notre projet d'application de don de sang ! Nous accueillons avec enthousiasme toutes les contributions qui peuvent améliorer notre application et aider à sauver des vies. Pour garantir une collaboration harmonieuse, veuillez lire attentivement les lignes directrices suivantes.
+
+## Comment contribuer
+
+1. Avant de commencer, assurez-vous de disposer d'une version récente du code source de l'application.
+
+2. Consultez la liste des problèmes ouverts dans le référentiel pour trouver des tâches à accomplir. Si vous avez une nouvelle idée ou une fonctionnalité à ajouter, veuillez créer un nouvel problème pour en discuter avec l'équipe de développement.
+
+3. Assurez-vous que personne d'autre ne travaille déjà sur la même tâche. Si quelqu'un est déjà affecté à un problème, veuillez vous coordonner avec lui avant de commencer à travailler dessus.
+
+4. Fork the repository and create a new branch for your contribution.
+
+5. Effectuez vos modifications et assurez-vous de suivre les meilleures pratiques de codage.
+
+6. Testez soigneusement vos modifications pour vous assurer qu'elles fonctionnent correctement.
+
+7. Soumettez une demande d'extraction (pull request) clairement documentée décrivant vos modifications, les problèmes qu'elles résolvent et tout impact potentiel sur l'application.
+
+## Directives de contribution
+
+- Veuillez respecter les normes de codage en vigueur dans le projet.
+- Commentez votre code de manière significative pour faciliter la compréhension.
+- Évitez d'introduire des dépendances supplémentaires sans justification adéquate.
+- Veillez à tester rigoureusement vos modifications avant de les soumettre.
+- Assurez-vous que votre contribution est compatible avec la licence open-source du projet.
+
+## Communication
+
+Nous encourageons une communication ouverte et respectueuse entre les contributeurs. Si vous avez des questions, des suggestions ou des préoccupations, n'hésitez pas à les partager dans les commentaires des problèmes ou dans les discussions appropriées.
+
+Nous sommes reconnaissants de votre engagement envers ce projet et nous attendons avec impatience vos précieuses contributions !
