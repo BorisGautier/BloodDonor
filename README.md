@@ -32,8 +32,8 @@ flutter pub get
 ## Configuration Firebase
 
 1. Créez un nouveau projet Firebase sur le site Web Firebase (https://console.firebase.google.com).
-2. Ajoutez une application Flutter à votre projet Firebase.
-3. Téléchargez le fichier de configuration Firebase (`google-services.json`) et placez-le dans le répertoire racine de votre projet Flutter.
+2. Ajoutez une application Flutter, Android , Ios et Web à votre projet Firebase en suivant les etapes
+3. Creez et Ajoutez vos clés firebase dans le fichier .env (voir .env.example)
 
 ## Structure des Données Firestore
 
